@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="66.736" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Validate Menu and Count links" name="Check Login with login credentials" time="15.28">
+<system-out><![CDATA[
+Given User is in the Home Page..............................................passed
+And Click on the login link.................................................passed
+When User enters the Email and Password.....................................passed
+And Click on the login button...............................................passed
+Then User should navigate to home page after login..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Menu and Count links" name="Check Menu links are working successfully" time="35.893">
+<system-out><![CDATA[
+Given User is in home page after login......................................passed
+And Click on each link one after other......................................passed
+And Click on logout button..................................................passed
+Then User navigate to home page.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
